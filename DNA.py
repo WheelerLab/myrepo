@@ -1,12 +1,8 @@
 #!/usr/bin/python
 
-seq = open('rosalind_dna.txt','r').read()
+s = open('rosalind_dna.txt','r').read()
 
-a = seq.count("A")
-c = seq.count("C")
-g = seq.count("G")
-t = seq.count("T")
- 
-print a, c, g, t
+print s.count("A"), s.count("C"), s.count("G"), s.count("T")
+
 
 
